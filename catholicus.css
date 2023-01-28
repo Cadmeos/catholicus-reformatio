@@ -1,0 +1,47 @@
+a { 
+    text-decoration: none; 
+    color: orange; 
+}
+	a:hover{
+		color: #ffe100;	
+	}
+	/* Estilo da Área que abriga as listas */
+
+main {
+/* display: block; */
+	justify-items: center;
+	display: grid;
+}
+
+body {
+	background-color: burlywood;
+}
+
+
+
+.grid {
+	/* justify-self: center; */
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 300px 300px 300px;
+	gap: 10px;
+	
+}
+
+
+div.content {
+	background-color: rgb(124, 25, 25);
+	color: white;
+	border: 5px solid #932d4d;
+
+}
+
+	.content h3 {
+
+		text-align: center;
+
+		}
+
+.head1 {
+	text-align: center;
+}
